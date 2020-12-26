@@ -1,0 +1,18 @@
+.header{
+    --background:  var(--vt-basic-color);
+    height: 56px;
+}
+
+.back{
+    --color	: #fff;
+}
+
+.title{
+    padding-left: calc(50% - 48px);
+    color: #fff;
+}
+
+.logo{
+    width: 40%;
+    margin: 0 auto;
+}

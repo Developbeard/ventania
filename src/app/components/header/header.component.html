@@ -1,0 +1,9 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <ion-buttons *ngIf="showTitle" slot="start">
+      <ion-back-button class="back" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title" *ngIf="showTitle">{{title}}</ion-title>
+    <ion-img class="logo" *ngIf="!showTitle" [src]="recursos.img.logo"></ion-img>
+  </ion-toolbar>
+</ion-header>

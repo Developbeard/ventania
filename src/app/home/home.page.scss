@@ -1,0 +1,9 @@
+ion-tab-button {
+  color: var(--vt-gray);
+  
+  
+  &.tab-selected{
+    color: var(--vt-gray);
+    border-bottom: 5px solid var(--vt-basic-color);
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ventania",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
